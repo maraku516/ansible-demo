@@ -26,4 +26,4 @@
     - name: install epel-release
       yum:
         name: epel-release
-  	  	state: latest
+        state: latest
