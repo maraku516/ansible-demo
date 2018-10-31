@@ -3,8 +3,10 @@
 ## For Demo Purpose only.. Use it at your own responsibility.
 ## Can update it as per your requirements - Yogesh 27/12/2016
 
-- hosts: all
-  become_user: root
+
+- name: Patch OS new stuff playbook
+  remote_user: root
+  hosts: all
   serial: 2
 
 
